@@ -12,12 +12,12 @@ Feature: Login
 
     Examples:
       | username          |
-      | Frank             |
-      | Frank             |
-      | Frank             |
+      | frank             |
+      | frank             |
+      | frank             |
       |                   |
       |                   |
-      | Fred              |
+      | fred              |
 
     Examples:
       | password          |
