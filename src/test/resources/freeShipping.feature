@@ -4,12 +4,12 @@ Feature: Free shipping above 20
   In order attract customers
 
   Background:
-    Given the customer is on the checkout
+    Given Frank is on the checkout
 
-  Scenario: a customer buys items with a subtotal equal to or higher than 20 euros
-    When the customer pays for the items
+  Scenario: Frank buys items with a subtotal equal to or higher than 20 euros
+    When Frank pays for the items
     Then the shipping is free
 
-  Scenario: a customer buys items with a subtotal less than 20 euros
-    When the customer pays for the items
+  Scenario: Frank buys items with a subtotal less than 20 euros
+    When Frank pays for the items
     Then the shipping is not free
