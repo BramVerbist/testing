@@ -7,7 +7,7 @@ Feature: Login
     Given Frank is not logged in
     And Frank is on the login page
     And Frank has an account
-    When Frank fills in his username: "<username>" and corresponding password: "<password>"
+    When Frank logs in with his correct username: "<username>" and corresponding password: "<password>"
     Then Frank gets logged in
 
     Examples:
